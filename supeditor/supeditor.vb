@@ -1,5 +1,6 @@
 ﻿Imports Word = Microsoft.Office.Interop.Word
 Imports System
+Imports System.IO
 
 
 Public Class GenericEditorForm
@@ -8,73 +9,44 @@ Public Class GenericEditorForm
 
     Public eType As String
     Public oDoc As Word.Document
-    Public comStore As CommentStore
+    Public eStore As EditorStore
 
-    Public Sub New(e As String, o As Word.Document)
+    Public Sub New(o As Word.Document)
 
         ' This call is required by the designer?
         InitializeComponent()
 
-        eType = e
         oDoc = o
+        eStore = New EditorStore()
 
         '
         ' building the form
         '
-
-        'ListBox1.DrawMode = DrawMode.OwnerDrawFixed
-
-        comStore = New CommentStore(eType)
-
-        ' first add radio buttons for each subsection type
-        Dim subSecs As List(Of String) = comStore.get_subsections()
-
-        For Each subsec As String In subSecs
-            Dim newButton As New ToolStripMenuItem
-
-            With newButton
-                .Text = subsec
-            End With
-
-            'when the section is clicked, load in the correct comments
-            AddHandler newButton.Click, AddressOf SectButtonHandler
-
-            MenuStrip1.Items.Add(newButton)
-
+        For Each eType As String In eStore.get_editor_types()
+            ComboBox1.Items.Add(eType)
         Next
 
+
+    End Sub
+
+    Public Sub populate_comments()
+        TextBox3.Text = ""
+        If (Not (ComboBox1.SelectedItem Is Nothing) And Not (ComboBox2.SelectedItem Is Nothing)) Then
+            Dim eType = ComboBox1.SelectedItem.ToString
+            Dim sec = ComboBox2.SelectedItem.ToString
+
+            For Each com As CommentContainer In eStore.get_comments(eType, sec)
+                TextBox3.Text = TextBox3.Text & com.name
+            Next
+        End If
+
+        'If nothing is selected- no problem.
 
     End Sub
 
     '
     ' handler routines
     '
-
-    Private Sub SectButtonHandler(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        'first remove the old list items
-        ListBox1.Items.Clear()
-
-        'now insert the comments for the given section
-        Dim sec As String = CType(CType(sender, System.Windows.Forms.ToolStripMenuItem).Text, String)
-        For Each comcon In comStore.get_comments(sec)
-            ListBox1.Items.Add(comcon.comment)
-        Next
-
-    End Sub
-
-    'straight jacked from https://social.msdn.microsoft.com/Forums/en-US/3dee72ea-83d9-4a59-95d0-ac1b93432b11/listbox-with-alternate-row-colors?forum=vbgeneral
-    'todo switching stripmenu with an item selected busts the bounds -try moving the highlighting logic to the selectedindexchange henderl
-    Private Sub ListBox1_DrawItem(ByVal sender As Object, ByVal e As System.Windows.Forms.DrawItemEventArgs) Handles ListBox1.DrawItem
-        If e.Index Mod 2 = 0 Then
-            e.Graphics.FillRectangle(Brushes.LightGray, e.Bounds)
-        End If
-
-        e.Graphics.DrawString(ListBox1.Items(e.Index).ToString, Me.Font, Brushes.Black, 0, e.Bounds.Y + 2)
-    End Sub
-
-    Private Sub ListBox1_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ListBox1.SelectedIndexChanged
-        'ListBox1.Refresh()
-    End Sub
 
 
     Private Sub GenericEditorForm_Close(sender As Object, e As EventArgs) Handles MyBase.FormClosed
@@ -90,29 +62,88 @@ Public Class GenericEditorForm
         supeditor_selector.Show()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+
         Try
-            Dim currentComment As String = ListBox1.SelectedItem
-            If (Not currentComment = "") Then
-                oDoc.Content.Comments.Add(oDoc.ActiveWindow.Selection.Range, currentComment)
-            End If
+            Dim currentComment = "blah"
+            oDoc.Content.Comments.Add(oDoc.ActiveWindow.Selection.Range, currentComment)
         Catch
             MsgBox("The document has been closed- please close your editing session and restart")
         End Try
     End Sub
 
-    '
-    ' helper functions
-    '
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+        'first, we must repopulate the dropdown
+        'note selecteditem isn't null since it changed
+        ComboBox2.Items.Clear()
+        For Each sect As String In eStore.get_subsections(ComboBox1.SelectedItem)
+            ComboBox2.Items.Add(sect)
+        Next
+        'next, repopulate the comments
+
+        populate_comments()
+    End Sub
+
+    Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
+        populate_comments()
+    End Sub
+End Class
+
+Public Class EditorStore
+    Public lookup As New Dictionary(Of String, CommentStore)
+    'todo vb equivalent of a header to share these guys?
+    Public APPDATA_DIR As String = "\supedit_editor\"
+    Public COMMENTSTORE_FORMAT = ".tsv"
+
+    Public Sub New()
+        Dim eTypes = get_editor_types_from_appdata()
+        For Each eType As String In eTypes
+            lookup.Add(eType, New CommentStore(eType))
+        Next
+    End Sub
+
+    Private Function get_editor_types_from_appdata() As List(Of String)
+        'todo cast to list of string instead of ugly copy?
+        'todo exception handling (specifically, what if non-tsv files here?
+        Dim eTypeDirs As Array = Directory.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) & APPDATA_DIR)
+
+        Dim retval As List(Of String) = New List(Of String)
+        For Each temp As String In eTypeDirs
+            Dim fields As Array = temp.Split("\")
+            Dim fname As String = fields(fields.Length - 1)
+            retval.Add(fname.Substring(0, fname.IndexOf(COMMENTSTORE_FORMAT)))
+        Next
+
+        Return (retval)
+    End Function
+
+    Public Function get_subsections(editorType As String)
+        Return (lookup(editorType).get_subsections())
+    End Function
+
+    Public Function get_comments(editorType As String, section As String)
+        Dim eComStore = lookup(editorType)
+        Return (eComStore.get_comments(section))
+    End Function
+
+    Public Function get_editor_types()
+        Dim keyList As New List(Of String)
+        For Each key As String In lookup.Keys
+            keyList.Add(key)
+        Next
+
+        Return (keyList)
+    End Function
 End Class
 
 Public Class CommentStore
     Public lookup As New Dictionary(Of String, List(Of CommentContainer))
     Public eType As String
 
-    'todo vb equivalent of a header to share these guys between form 1 and 2?
+    'todo vb equivalent of a header to share these guys?
     Public APPDATA_DIR As String = "\supedit_editor\"
     Public COMMENTSTORE_FORMAT = ".tsv"
+    Public COMMENTSTORE_DELIM = vbTab
 
     Public Sub New(e As String)
         eType = e
@@ -123,7 +154,7 @@ Public Class CommentStore
         Dim commentEntries As Array = commentData.Split(vbNewLine)
 
         For Each commentEntry As String In commentEntries
-            Dim fields As Array = commentEntry.Split(vbTab)
+            Dim fields As Array = commentEntry.Split(COMMENTSTORE_DELIM)
 
             'todo bounds checking
             Dim section As String = fields(0)

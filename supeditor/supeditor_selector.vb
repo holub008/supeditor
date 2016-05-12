@@ -6,9 +6,6 @@ Public Class supeditor_selector
 
     Public oDoc As Word.Document
     Public oWord As Word.Application
-    Public editorTypes As List(Of String)
-    Public APPDATA_DIR As String = "\supedit_editor\"
-    Public COMMENTSTORE_FORMAT = ".tsv"
 
     '
     ' start of event handlers
@@ -16,17 +13,19 @@ Public Class supeditor_selector
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        'place the different editing options into the listbox
-        editorTypes = get_editor_types()
-        For Each eType As String In editorTypes
-            ListBox1.Items.Add(eType)
+        'warn users if they have a currently open word document
+        For Each b As Process In Process.GetProcesses(".")
+            Try
+                If b.MainWindowTitle.Length > 0 Then
+                    If (b.ProcessName.ToString() = "WINWORD") Then
+                        TextBox1.Text = "It looks like you currently have a word document open. If the document you wish to edit is currently open, please close it before proceeding."
+                        TextBox1.BorderStyle = BorderStyle.Fixed3D
+                        TextBox1.Enabled = True
+                    End If
+                End If
+            Catch
+            End Try
         Next
-
-        If (editorTypes.Count() > 0) Then
-            ListBox1.SelectedIndex = 0
-        Else
-            MessageBox.Show("You have a bad install. Contact support with error: Could not find editor type files.")
-        End If
 
     End Sub
 
@@ -38,24 +37,25 @@ Public Class supeditor_selector
         openFileDialog1.RestoreDirectory = True
 
         If openFileDialog1.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
-            Dim tester = openFileDialog1.FileName
+            Dim filep = openFileDialog1.FileName
 
             'create the MS word objects to open the file
             oWord = CreateObject("Word.Application")
             oWord.Visible = True
-            'todo handle the document was already open and failed to open
-            Try
-                oDoc = oWord.Documents.Open(tester)
 
-                'open a new form corresponding to the selected editor type
-                Dim editorForm As GenericEditorForm
-                'todo pass pass oword for closing application and not just doc
-                editorForm = New GenericEditorForm(ListBox1.SelectedItem, oDoc)
-                editorForm.Show()
-                Me.Hide()
-            Catch
-                'do nothing
-            End Try
+            'todo handle the document was already open and failed to open
+            ' Try
+            oDoc = oWord.Documents.Open(filep)
+
+            'open a new form corresponding to the selected editor type
+            Dim editorForm As GenericEditorForm
+            'todo pass pass oword for closing application and not just doc
+            editorForm = New GenericEditorForm(oDoc)
+            editorForm.Show()
+            Me.Hide()
+            'Catch
+            'MessageBox.Show("Oops: failed to open the editor- please try again! ")
+            'End Try
 
 
         End If
@@ -74,22 +74,7 @@ Public Class supeditor_selector
     End Sub
 
     '
-    ' start of helper routines - not event handlers
+    ' helper routines - not event handlers
     '
-
-    Private Function get_editor_types() As List(Of String)
-        'todo cast to list of string instead of ugly copy?
-        'todo exception handling (specifically, what if non-tsv files here?
-        Dim eTypeDirs As Array = Directory.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) & APPDATA_DIR)
-
-        Dim retval As List(Of String) = New List(Of String)
-        For Each temp As String In eTypeDirs
-            Dim fields As Array = temp.Split("\")
-            Dim fname As String = fields(fields.Length - 1)
-            retval.Add(fname.Substring(0, fname.IndexOf(COMMENTSTORE_FORMAT)))
-        Next
-
-        Return (retval)
-    End Function
 
 End Class

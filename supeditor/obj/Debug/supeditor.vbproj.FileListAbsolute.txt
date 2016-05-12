@@ -1,0 +1,12 @@
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\bin\Debug\supeditor.exe.config
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.Resources.resources
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.vbproj.GenerateResource.Cache
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.vbproj.ResolveComReference.cache
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\bin\Debug\supeditor.exe
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\bin\Debug\supeditor.pdb
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\bin\Debug\supeditor.xml
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.GenericEditorForm.resources
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.exe
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.xml
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.pdb
+C:\Users\Karl Holub\Documents\superior_editing\supedit\supeditor\supeditor\obj\Debug\supeditor.supeditor_selector.resources

@@ -1,0 +1,101 @@
+General Comments	Cost-Effectiveness	"Did you or a consultant perform an analysis of cost-effectiveness? If so, please include this information. If not, consider assessing the cost-effectiveness"
+General Comments	Clarity of Hypothesis	Your hypothesis lacks clarity. Please revise it to succinctly and clearly communicate your hypothesis
+General Comments	Eliminate Claims of Priority	"Eliminate all unnecessary claims of priority. Editors dislike overt assertions such as “we were the first” or “for the first time;” through acceptance and publication, the originality and relevance of your research should become apparent"
+General Comments	Write Out Acronyms	"When you first introduce an acronym, write out all of the words and then include the acronym in parentheses. Henceforth, you can use only the acronym"
+General Comments	Discrepancy between Abstract and Study	"Your description of your study does not directly follow your abstract, please revise to eliminate this inconsistency"
+General Comments	Discrepancy between Results and Conclusion	"Your conclusion does not directly follow your results, please revise to eliminate this inconsistency"
+General Comments	Overly Focused on Sub-group	"Your conclusions are too reliant on certain sub-groups, please expand to include all data and results"
+General Comments	Selective Reporting of Results	"In our reading of the manuscript, you appear to overemphasize the positive findings and either downplay or fail to mention the negative findings. In order to ensure objectivity, expand your discussion to more accurately reflect the data. This will not diminish your research in the eyes of the editors or readership, as they prefer papers devoid of bias"
+General Comments	Summary Statement	The desired format for a summary statement is one sentence--sometimes transcribed from your discussion section--that encapsulates the significance of your study
+General Comments	Add Implications for Patient Care	Journals prefer if you include up to three sentences about the implications of your research on patient care as part of this section. We recommend that you include this in your revised manuscript
+General Comments	Journal Formatting	Your formatting here does not match the requirements of [your target journal]. Please alter them in the following way: [insert]
+General Comments	Advances in Knowledge	Strengthen your Advances in Knowledge section by incorporating quantitative data
+General Comments	Advances in Knowledge and Implications for Patient Care	"The “Advances in Knowledge” and “Implications for Patient Care” offer readers a direct look at the importance of your research. Therefore, please keep them short and specific, strive for clarity, and correlate them with your results"
+Terms	Significance	"The word “significant” should only be used in reference to statistics, with p-value included. Please choose a suitable synonym"
+Terms	Priority	"Avoid overt and nonspecific claims of priority. If your paper is novel, this should come across in your Discussions section quite clearly, and possibly in your statement of the study’s aim"
+Terms	Claims of Novelty in Titles	"We advise against using claims of novelty in a title; instead, state the basic premise of the research and its importance"
+Terms	Preference of 'References'	"Journals prefer the term “reference” whenever mention is made of the influencing, competing, or related literature"
+Terms	Dosage Description	"Journals prefer specific information about dosage, usually following parameters offered by the journal. We recommend that you describe your dosages in as much non-relative detail as possible following journal parameters"
+Terms	Our Study'	"Journals prefer the term “our” when referencing your study, use this rather than any other indicator"
+Terms	High Resolution MRI	"Journals prefer specific information about “high resolution MRI,” please include details concerning which aspect of the MRI is “high” resolution and, if necessary, numerical details"
+Terms	Density vs. Attenuation	Journals prefer the term “attenuation” to the term “density”
+Terms	Correlation	The word “correlation” should only be used in reference to statistics. Please choose a suitable synonym
+Terms	Plain Film vs. Radiograph	Journals prefer the term “radiograph”/”conventional radiograph” to the term “plain film”
+Terms	Cases	"Instead of using the word “case(s),” choose the specific alternative that informs the reader of the exact nature of the “case,” i.e., “patients,” “studies,” etc"
+Terms	Proton Density vs. Intermediate-wieghted	Journals prefer the term “intermediate weighted” to the term “proton density”
+Abstract	Purpose Statement	"Please include identical statements of “Purpose” at the beginning and end of the abstract, as per the requirements of [your target journal]"
+Abstract	Introduction in Abstract	Abstracts should not contain introductory statements. These should all be placed in the “Introduction” section of your manuscript
+Abstract	Background in Purpose Statement	Purpose statements should not contain unnecessary background information; stick to the central ideas and advances of your study
+Abstract	Specific Numbers in Abstract	"Add mean age, age range, and number of subjects to your abstract"
+Abstract	Statistical Analysis in Abstract	"Your abstract should include your statistical analysis, with p-values included, and, when percentages are given, include both the numerator and denominator"
+Abstract	P-value Inclusion	P-values should be given with all numerical data throughout the paper
+Introduction	Study Aim and Hypothesis	The study aim needs to be clearly and simply stated
+Introduction	Hypothesis	The hypothesis needs to be clearly and simply stated
+Introduction	Outcome	The outcome needs to be clearly stated
+Introduction	Reference Standard	The reference standard needs to be clearly stated here
+Methods	Statistics about Age	"Mean age and age range should be given separately for your male and female subjects, and for male and female subjects as one group"
+Methods	Statistical Significance	Include an analysis for statistical significance between the ages of your male and female groups
+Methods	Inclusion/Exclusion	"Describe the inclusion and exclusion criteria you used in determining which patients would be included in your data, and how many patients were excluded in each case. You may wish to create a graphic if you think that the editors/readership would find it useful to have a visual"
+Methods	Author Information	"If the author(s) of the paper also carried out substantial portions of the research, include their initials here, as well as their expertise and years of experience, if relevant"
+Methods	Pulse Sequence Information	"The specific pulse sequence information (e.g. TR, TE, etc.) should be described in the Methods section"
+Methods	Inconsistency for Methods/Results	"Keep your Materials and Methods consistent with Results. For each result, table, and figure in the Results section, ensure that you state within the Materials and Methods a) what was evaluated b) the particulars of the evaluation and c) who performed the evaluation. Likewise, all of the evaluations described in Materials and Methods should have corresponding results in the Results section"
+Methods	Result Lacking Method	"Any result stated must have a previous inclusion concerning how these results were found in the Methods section, including information about the time and evaluator(s). We recommend that you add [insert]"
+Methods	Method Lacking Result	Any method stated must later have a result given concerning the exact data gained through that specific experimental element. We recommend that you add [insert]
+Methods	List Recommendation	"To assure consistency between Methods and Results, we recommend that you make a list of all elements discussed in Methods and those discussed in Results, and cross-check them to ensure that each element has a parallel in the other section"
+Methods	Reader Information	"In the Methods section, give details of each evaluation performed, including the who did the readings or ratings, their area of expertise and experience, in what way they were blinded, and timing and variability information"
+Methods	Subheaders	Include subheaders for each Methods section
+Methods	Role of Test	Please describe the role of your tests in the workup of patients
+Methods	Pre-specification of Subgroups	Address in your Methods section whether your subgroups of analysis were pre-specified
+Methods	Pre-specification of Thresholds	Address in your Methods section whether your thresholds were pre-specified or determined based on the data of your tests
+Methods	Replication	You need to include enough information to completely replicate your study
+Methods	Sampling Frame	Please make the desired sample population clearer
+Methods	Inclusion/Exclusion	Please state all inclusion/exclusion criteria in order to make your sampling and analysis methods clear
+Methods	Criteria Decision	Were the inclusion/exclusion criteria and thresholds pre-identified or created based on your data?
+Methods	Confounders	Please include all possible confounders
+Statistical Analysis in Methods	Reference Standard	The reference standard needs to be clearly stated here
+Statistical Analysis in Methods	Sample Size	Please state your sample size clearly here
+Statistical Analysis in Methods	Specification of Statistical Tests	You need to specify your specific method of statistical testing from the outset here
+Statistical Analysis in Methods	Reference Standard	The reference standard needs to be both clear and meaningful
+Statistical Analysis in Methods	Cutoff Points	"Your cutoff points need to be substantiated based on theoretical distinctions, not just on observation"
+Statistical Analysis in Methods	Confounders	Make sure to account for all possible confounders
+Statistical Analysis in Methods	Cohort Consistency	Your cohorts need to be consistent throughout your experiment and paper
+Results	Inconsistency for Methods/Results	"Keep your Materials and Methods consistent with Results. For each result, table, and figure in the Results section, ensure that you state within the Materials and Methods a) what was evaluated b) the particulars of the evaluation and c) who performed the evaluation. Likewise, all of the evaluations described in Materials and Methods should have corresponding results in the Results section"
+Results	P-value Inclusion	Please include all p-values
+Results	Data Inclusion	Please include numerical data on this with accompanying p-values
+Results	Table Simplification	"This table contains a great deal of data. In order to make the information more intelligible, consider [insert]"
+Results	Percentage Notation	"When you include a percentage, you must state the numerator and denominator"
+Results	Population Clarity	Please clarify your population
+Results	Number Inconsistency	"Your numbers do not add up here, because [insert]"
+Discussion	Principle Finding	Make sure to state your principle finding clearly and immediately--don't bury the lead!
+Discussion	Eliminate Redundancy	"Editors dislike needless repetition of information in the Discussion that appears elsewhere in the manuscript. Thus, eliminate any redundancy"
+Discussion	Discussion Section Issues	"Discussion sections are both crucial and difficult to write. Here are some tips about the structure of the Discussion we collected from editors at top medical journals: \n Paragraphs 1-2: state your major finding and its importance \nParagraph 3: describe what others have previously reported \nParagraph 4: reveal if your findings were better, confirmatory, or different \n Paragraph 5: list the limitations of your study \n (Optional) Paragraph 6: if appropriate, suggest future investigations"
+Discussion	Discuss only Presented Data	You are discussing data here that was not presented in your Results. Please limit discussion to the exact results you presented above
+Discussion	Data in Discussion	You are presenting new data in Discussion. Any relevant data must be moved to Results
+Discussion	Consensus Review	Consensus imaging interpretation in radiologic research may be problematic. Please address this in your limitations paragraph
+Discussion	New Findings	Share new findings in the framework of the existing research and body of knowledge
+Discussion	Practical Application	"For experimental studies, please briefly describe the potential importance of your conclusions as they relate to future practical applications. This information should appear at the end of your ""Discussion"" section of the manuscript"
+Discussion	Discrepancy between Discussion and Results	"Avoid mentioning results in the Discussion section not previously shared in the Results section. If you wish to include this data, please describe the evaluation in Materials and Methods and results in Results"
+Discussion	Avoid Reference to Figures	Avoid referencing tables or figures in the Discussion section
+Discussion	Limitation Identification	Editors look for a statement of the study’s limitations at the end of the Discussion section. Please add this information here
+Discussion	Extrapolation/Generalization	Make sure to limit your extrapolations and generalizations to your study population
+Discussion	References	Please provide a supporting reference for this statement
+Discussion	"Stating ""No Difference"""	"Please remove any statements of ""no difference"": either there is a significant observed difference or you failed to find a difference. The latter does not mean that no difference exists, only that you failed to find one with the current population"
+Discussion	Failure to Find Distinction	"Since you are stating that you failed to find a difference, please include a discussion of the possibility that this may be due to low power or overly large effect size"
+Discussion	Future Research	Please include a concise and clear statement of the future research that your results indicate could be useful or illuminating
+Figures	Numbering Figures	"When numbering figures, assign numbers in the order in which they appear in the text"
+Figures	Labelling	Label all features in a figure named in the captions
+Figures	Quantity of Figures	"[Your target journal] permits up of [#] figures. (However, additional figures may appear online.) You currently have [#] figures. Review and select which remain essential"
+Figures	Arrowheads	"The head of the arrow should not be an equilateral triangle, as this confuses readers. Instead, use an arrow with a tail or other indicator of directionality"
+Figures	Plane of View	"For figures displaying patient images, include the plane of view of each image in the caption (coronal, transverse/axial, longitudinal/sagittal)"
+Figures	Individual Files	Submit each figure as an individual file rather than including multiple in one file
+Figures	Images for 'Radiology' Journal	Digital images for accepted manuscripts should be supplied as TIFF files. EPS files are also acceptable. Minimum resolution is 300 dpi with 3 inches (7.62 cm) as the shortest diameter. 7 inches (17.78 cm) should be the longest diameter. Line art images should be submitted as 600 dpi TIFFs or in the program in which they were created
+Figures	Pulse Sequence Information	Include the pulse sequence information for any MR images in the caption if they are not stated in Methods
+Figures	Image Type	Please state the acquisition modality of each image
+Figures	Black and White	[Your target journal] prints in black and white
+Figures	Caption Placement	"Create a separate page, apart from the text, for the figure captions or legends"
+Figures	Histologic Sections: Important Points	Please identify the important aspect of the histologic images in the figure caption and annotate the images accordingly
+Figures	Histologic Sections: Stain and Magnification	Please make certain that for ALL histologic sections you provide the stain used and the magnification
+Figures	Image Size	The small size of this graphic or image renders it difficult to read. Consider enlarging it
+Figures	Image Inclusion	Editors like when authors include at least one or two scan images related to the study’s main points
+Figures	One Patient per Figure	There should be one patient per figure. Each patient’s images should have a different figure
+Figures	Age and Gender Inclusion	Include the patient’s age and gender in the caption

@@ -1,0 +1,13 @@
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\bin\Debug\Chimera.exe.config
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Editor.vbproj.ResolveComReference.cache
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.exe
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.xml
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.pdb
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\bin\Debug\Chimera.exe
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\bin\Debug\Chimera.pdb
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\bin\Debug\Chimera.xml
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.ChimeraEditor.resources
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.ChimeraHome.resources
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.CommentEditorHome.resources
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Chimera.Resources.resources
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Debug\Editor.vbproj.GenerateResource.Cache

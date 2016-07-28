@@ -1,0 +1,57 @@
+Introduction	Study Aim and Hypothesis	The study aim needs to be clearly and simply stated
+Introduction	Hypothesis	The hypothesis needs to be clearly and simply stated
+Introduction	Outcome	The outcome needs to be clearly stated
+Introduction	Reference Standard	The reference standard needs to be clearly stated here
+Methods	Replication	You need to include enough information to completely replicate your study
+Methods	Sampling Frame	Please make the desired sample population clear
+Methods	Inclusion/Exclusion	All inclusion/exclusion criteria must be stated in order to make your sampling and analysis methods clear
+Methods	Criteria Decision	Were the inclusion/exclusion criteria and thresholds pre-identified or created based on your data?
+Methods	Confounders	Please include all known confounders
+Power and Sample Size	Null Hypothesis	Please state your null hypothesis(es) (what you are trying to show) clearly
+Power and Sample Size	Desired Effect Size	"Please state your desired effect size, whether it was met, and whether it was clinically meaningful"
+Power and Sample Size	Reference Standard	The reference standard needs to be defined here
+Power and Sample Size	Alpha Levels	"Your alpha levels need to be included, along with rationale"
+Power and Sample Size	Sample Size	Please state your sample size clearly here
+Power and Sample Size	Power - Prospective	"You need to include and defend the prospective power of this experiment to show effect, with specific rationale"
+Power and Sample Size	Power - Retrospective	"Retrospective Power, if presented, needs to be justified and explained"
+Statistical Analysis	Specification of Statistical Tests	You need to specify your specific method of statistical testing from the outset here
+Statistical Analysis	Appropriateness of Statistical Tests	Your statistical test may not be appropriate for your dataset. I recommend [insert]
+Statistical Analysis	Reference Standard	The reference standard needs to be both clear and meaningful for each analysis
+Statistical Analysis	One-sided vs. Two-sided Test	"Please specify whether this is a one- or two-sided test, adjust your significance determinants appropriately, and if using a 1-sided test justify why that choice is appropriate"
+Statistical Analysis	Exact vs. asymptotic	You need to indicate whether your test is asymptotic or exact and explain why
+Statistical Analysis	Statistics match Assumptions	Your statistics do not meet the necessary assumptions for your data. Please alter in the following way: [insert]
+Statistical Analysis	Dichotomization	"Dichotimization of your data generally lowers statistical power. I recommend that you use either continuous methods (regression analysis), increase your number of groups, or otherwise justify the need to perfrom the dichotomization."
+Statistical Analysis	Binning of Data	"Grouping (binning) data lower statistical power. I recommend exploring continuous methods (regression analysis), increasing the number of groups to show more exacting distinctions, or otherwise justify the need to perfrom the groupings."
+Statistical Analysis	Cutoff Points	"Your cutoff points need to be substantiated based on theoretical distinctions, not just on observation"
+Statistical Analysis	Confounders	Make sure to account for all known confounders
+Statistical Analysis	Cohort Consistency	Your cohorts need to be consistent throughout your experiment and paper
+Statistical Analysis	Continuity/Regression	Make sure to avoid using continuous analytic techniques on categorized data inappropriately (i.e. do not use regression on subdivided data sets)
+Statistical Analysis	Multiple Comparisons Corrections	"Make sure to utilize multiple comparisons corrections, since you have multiple sub-samples of data/analysis based on your hypotheses"
+Statistical Analysis	Altman-Bland	You should use an Altman-Bland plot to analyze correlations between your different assay methods
+Statistical Analysis	ROC Curve	A Reciever Operating Characteristic curve may be appropriate here to determine test accuracy
+Statistical Analysis	ROC Positivity	Make sure to confirm whether large or small values in your ROC curve represent positivity
+Statistical Analysis	ROC Readers pooled	"If possible, do not pool your readers, as this reduces ROC estimates. If readers must be pooled, indicate why and make appropriate adjustments in the strength of claims of positivity"
+Statistical Analysis	Software Reference	Please reference the software you utilized at the end of this section
+Results	Population Clarity	Please clarify your population
+Results	Population Generalizability	Is your included population similar to your excluded population in a way that allows generalizability?
+Results	Means and Standard Error	To compare the distribution of data you need to present more than just means and standard errors 
+Results	Patient Characteristics	Make sure to present patient characteristics as distributions  to allow comparison to other studies
+Results	"Q1, Median, Q3, and Standard Error"	"Pay special attention to data distributions (Q1, Median, Q3, Mean, and Standard Error) during your analysis"
+Results	Number Inconsistency	"Your numbers do not add up here, because [insert]"
+Results	Univariate vs. Multivariate Analysis	Are your major results from univariate or multivariate analysis?
+Results	Appropriateness of Graphics	This graphic is not appropriate for these data and analyses because [insert]
+Results	Dispersion of Graphics	The dispersion of graphics throughout the paper is inappropriate because [insert]
+Results	Box and Whisker plot	Please use a box and whisker plot to compare distributions here
+Results	Cumulative Frequency plots	A cumulative frequency plot would be useful for this
+Results	Histogram	A histogram would be useful to describe the distribution
+Results	EQUATOR Guidelines	The EQUATOR guidelines have not been adhered to in the following way: [insert]
+Results	EQUATOR Flowchart	Please include the appropriate EQUATOR flowchart here
+Discussion	Principle Finding	Make sure to state your principle finding clearly and immediately--don't bury the lead!
+Discussion	Limitations	Please identify your limitations more fully and discuss the possible implications for your results (including the possibility of alteration/spuriousness)
+Discussion	Discuss only Presented Data	You are discussing data here that was not presented in your Results. Please limit discussion to the exact results you presented above
+Discussion	Data in Discussion	You are presenting new data in Discussion. Any relevant data must be moved to Results
+Discussion	Extrapolation/Generalization	Make sure to limit your extrapolations and generalizations to your study population
+Discussion	References	Please provide a supporting reference for this statement
+Discussion	"Stating ""No Difference"""	"Please remove any statements of ""no difference"": either there is a significant observed difference or you failed to find a difference. The latter does not mean that no difference exists, only that you failed to find one with the current population"
+Discussion	Failure to Find Distinction	"Since you are stating that you failed to find a difference, please include a discussion of the possibility that this may be due to low power, overly large effect size, or confounding."
+Discussion	Future Research	Please include a concise and clear statement of the future research that your results indicate could be useful or illuminating

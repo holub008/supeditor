@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Chimera
+</name>
+</assembly>
+<members>
+<member name="T:Chimera.CommentStore">
+ 
+ Just a wrapper for a 2d array. As long as the number of comments does not exceed x000, this will be sufficiently fast
+ All search methods just perform a linear filter. If comment store grows, consider indexing rows in a hashmap.
+
+</member><member name="P:Chimera.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Chimera.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Chimera.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

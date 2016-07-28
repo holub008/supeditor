@@ -1,0 +1,59 @@
+General Comments	Eliminate Claims of Priority	"Eliminate all unnecessary claims of priority. Editors dislike overt assertions such as “we were the first” or “for the first time;” through acceptance and publication, the originality and relevance of your research should become apparent"
+General Comments	Write Out Acronyms	"When you first introduce an acronym, write out all of the words and then include the acronym in parentheses. Henceforth, you can use only the acronym"
+General Comments	Word Limit Restrictions	"[Your target journal] limits submissions to [#] words or fewer. Your unedited manuscript had [#] words, but through the process of word reduction we reached a word count of [#]"
+Terms	Significance	"The word “significant” should only be used in reference to statistics, with p-value included. Please choose a suitable synonym"
+Terms	Priority	"Avoid overt and nonspecific claims of priority. If your paper is novel, this should come across in your Discussions section quite clearly, and possibly in your statement of the study’s aim"
+Terms	Claims of Novelty in Titles	"We advise against using claims of novelty in a title; instead, state the basic premise of the research and its importance"
+Terms	Preference of 'References'	"Journals prefer the term “reference” whenever mention is made of the influencing, competing, or related literature"
+Terms	Dosage Description	"Journals prefer specific information about dosage, usually following parameters offered by the journal. We recommend that you describe your dosages in as much non-relative detail as possible following journal parameters"
+Terms	Our Study'	"Journals prefer the term “our” when referencing your study, use this rather than any other indicator"
+Terms	High Resolution MRI	"Journals prefer specific information about “high resolution MRI,” please include details concerning which aspect of the MRI is “high” resolution and, if necessary, numerical details"
+Terms	Density vs. Attenuation	Journals prefer the term “attenuation” to the term “density”
+Terms	Correlation	The word “correlation” should only be used in reference to statistics. Please choose a suitable synonym
+Terms	Plain Film vs. Radiograph	Journals prefer the term “radiograph”/”conventional radiograph” to the term “plain film”
+Terms	Cases	"Instead of using the word “case(s),” choose the specific alternative that informs the reader of the exact nature of the “case,” i.e., “patients,” “studies,” etc"
+Terms	Proton Density vs. Intermediate-wieghted	Journals prefer the term “intermediate weighted” to the term “proton density”
+Abstract	Purpose Statement	"Please include identical statements of “Purpose” at the beginning and end of the abstract, as per the requirements of [your target journal]"
+Abstract	Background in Purpose Statement	Purpose statements should not contain unnecessary background information; stick to the central ideas and advances of your study
+Abstract	Word Limit	The word limit for the abstract is [insert #]. I have shortened the abstract to comply with this journal requirement. Please review the revised abstract for accuracy
+Abstract	Subheadings	The abstract should be structured with appropriate headings. I have edited the abstract to comply with this journal requirement. Please review the revised abstract for accuracy
+Abstract	Keyword Abbreviations	A list of up to [insert #] abbreviations for key words should accompany the abstract. I have added a list of key words to comply with this journal requirement. Please make any additions or deletions you think appropriate
+Abstract	No Acronyms	Acronyms cannot be used in the abstract. I have spelled out all the acronyms in the abstract to comply with this journal requirement
+Abstract	No References	Reference citations cannot be used in the abstract. I have deleted any such citations in the abstract to comply with this journal requirement
+Abstract	Statistical Analysis in Abstract	"Your abstract should include your statistical analysis, with p-values included, and, when percentages are given, include both the numerator and denominator"
+Abstract	P-value Inclusion	P-values should be given with all numerical data throughout the paper
+Introduction	Objective	The objective of your study is not clearly stated. I have revised the text to include a statement. Please review this statement for accuracy
+Introduction	Move Text to Methods	"This text belongs in Materials and Methods, as it describes what methods you followed in your study. I have moved the text to an appropriate place in Materials and Methods"
+Introduction	Acronyms	"Acronyms must be used at least [insert #] times in a manuscript. You used this acronym only [# of times], so it has been deleted to comply with this journal requirement"
+Introduction	Reference for Statement	This statement requires attribution. Please provide an appropriate source citation in the text and in the list of references
+Materials and Methods	Statistics about Age	"Mean age and age range should be given separately for your male and female subjects, and for male and female subjects as one group"
+Materials and Methods	Move Text to Results	"This text belongs in Results, as it describes findings from your study. I have moved the text to an appropriate place in Results"
+Materials and Methods	Acronyms	"Acronyms must be used at least [insert #] times in a manuscript. You used this acronym only [insert #] times, so it has been deleted to comply with this journal requirement"
+Materials and Methods	Statistical Significance	Include an analysis for statistical significance between the ages of your male and female groups
+Materials and Methods	Inclusion/Exclusion	"Describe the inclusion and exclusion criteria you used in determining which patients would be included in your data, and how many patients were excluded in each case. You may wish to create a graphic if you think that the editors/readership would find it useful to have a visual"
+Materials and Methods	Inconsistency for Methods/Results	"Keep your Materials and Methods consistent with Results. For each result, table, and figure in the Results section, ensure that you state within the Materials and Methods a) what was evaluated b) the particulars of the evaluation and c) who performed the evaluation. Likewise, all of the evaluations described in Materials and Methods should have corresponding results in the Results section"
+Materials and Methods	Reference for Statement	This established method requires attribution. Please provide an appropriate source citation in the text and in the list of references
+Materials and Methods	Manufacturer Information	The name of the manufacturer is required for this equipment/software. Please verify that I have provided the correct manufacturer and location
+Materials and Methods	Subheaders	Include subheaders for each Methods section
+Materials and Methods	Replication	You need to include enough information to completely replicate your study
+Results	Move Text to Methods	"This text belongs in Materials and Methods, as it describes what methods you followed in your study. I have moved the text to an appropriate place in Materials and Methods"
+Results	Acronyms	"Acronyms must be used at least [insert #] times in a manuscript. You used this acronym only [insert #] times, so it has been deleted to comply with this journal requirement"
+Results	Significance	You indicate that this finding is significant. By significant do you mean statistically significant or clinically important?
+Results	P-value Inclusion	Please provide the p-value for this statistically significant finding
+Results	Number Inconsistency	"Your numbers do not add up here, because [insert]"
+Discussion	Principle Finding	Make sure to state your principle finding clearly and immediately--don't bury the lead!
+Discussion	Eliminate Redundancy	"Editors dislike needlessly repetition of information in the Discussion that appears elsewhere in the manuscript. Thus, eliminate any redundancy"
+Discussion	Discussion Section Issues	"Discussion sections are both crucial and difficult to write. Here are some tips about the structure of the Discussion we collected from editors at top medical journals:\nParagraphs 1-2: state your major finding and its importance\nParagraph 3: describe what others have previously reported\nParagraph 4: reveal if your findings were better, confirmatory, or different\nParagraph 5: list the limitations of your study\n(Optional) Paragraph 6: if appropriate, suggest future investigations"
+Discussion	Discuss only Presented Data	You are discussing data here that was not presented in your Results. Please limit discussion to the exact results you presented above
+Discussion	Data in Discussion	You are presenting new data in Discussion. Any relevant data must be moved to Results
+Discussion	Discrepancy between Discussion and Results	"Avoid mentioning results in the Discussion section not previously shared in the Results section. If you wish to include this data, please describe the evaluation in Materials and Methods and results in Results"
+Discussion	Avoid Reference to Figures	Avoid referencing tables or figures in the Discussion section
+Discussion	Limitation Identification	Editors look for a statement of the study’s limitations at the end of the Discussion section. Please add this information here
+Discussion	References	Please provide a supporting reference for this statement
+Figures and Tables	Reprinted Table or Figure	"You have indicated that this [table, figure] has been reprinted from another source. Have you obtained written permission from the original publisher to reproduce it?"
+Figures and Tables	Numbering Figures	"When numbering figures, assign numbers in the order in which they appear in the text"
+Figures and Tables	Labelling	Label all features in a figure named in the captions
+Figures and Tables	Plane of View	"For figures displaying patient images, include the plane of view of each image in the caption (coronal, transverse/axial, longitudinal/sagittal)"
+Figures and Tables	Caption Placement	"Create a separate page, apart from the text, for the figure captions or legends"
+Figures and Tables	One Patient per Figure	There should be one patient per figure. Each patient’s images should have a different figure
+Figures and Tables	Age and Gender Inclusion	Include the patient’s age and gender in the caption

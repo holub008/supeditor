@@ -1,0 +1,2 @@
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\bin\Release\Chimera.exe.config
+C:\Users\Karl Holub\Documents\superior_editing\Chimera\App\Chimera\Chimera\obj\Release\Chimera.vbproj.ResolveComReference.cache
